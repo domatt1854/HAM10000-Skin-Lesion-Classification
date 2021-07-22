@@ -3,6 +3,8 @@ tensorflow==2.5.0
 streamlit==0.84.0
 numpy==1.19.5
 matplotlib==3.4.1
-keras==2.5.0
+keras==2.4.3
+keras-nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
 Pillow==8.3.1
 scikit_learn==0.24.2
