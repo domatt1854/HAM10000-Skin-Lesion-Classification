@@ -6,6 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import streamlit as st
 from keras.models import load_model
 import matplotlib.pyplot as plt
+imoprt tensorflow as tf
 
 st.header("Skin Disease Detection")
 st.image('./Pictures/home_image.png',  width = 400, caption="skin problem")
@@ -85,7 +86,7 @@ if user_input is not None:
             return np.asarray(Image.open(x).resize((IMAGE_SIZE, IMAGE_SIZE)))
 
         st.write("Loading the model")
-        model = load_model('CNN_skin_lesion_model')
+        model = tf.keras.models.load_model('CNN_skin_lesion_model')
         st.write("Model is loaded")
 
         numpy_image_data = map_image(x)
