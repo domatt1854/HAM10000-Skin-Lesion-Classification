@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import streamlit as st
 from keras.models import load_model
 import matplotlib.pyplot as plt
-imoprt tensorflow as tf
+import tensorflow as tf
 
 st.header("Skin Disease Detection")
 st.image('./Pictures/home_image.png',  width = 400, caption="skin problem")
