@@ -86,7 +86,7 @@ if user_input is not None:
             return np.asarray(Image.open(x).resize((IMAGE_SIZE, IMAGE_SIZE)))
 
         st.write("Loading the model")
-        model = load_model('CNN_skin_lesion_model')
+        model = load_model('CNN_Skin_Lesion_Model')
         st.write("Model is loaded")
 
         numpy_image_data = map_image(x)
