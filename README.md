@@ -1,14 +1,11 @@
 # Skin-Cancer-Image-Classification
 
-## How to use it?
-* First open anaconda
-* Then click on environments
-* Make a new environment
-* Then open anaconda prompt terminal
-* On anaconda prompt change your environment from base to whatever new environment you made
-* download tensorflow, keras, streamlit, pandas, nupmy, matplotlib, scikit-learn
-* Then type `streamlit run prediction.py` on the anaconda prompt
+LINK TO Web App
+https://share.streamlit.io/domatt1854/ham10000-skin-lesion-classification/main/prediction.py
 
+## How to use it?
+Follow the link and download images from this github repository in the 'Data\HAM10000_images_part_1' folder
+Drop the image into the upload box and follow the classification.
 
 #### TO RUN THE JUPYTER NOTEBOOK ####
 The python code is located in "CNN_Notebook.ipynb"
